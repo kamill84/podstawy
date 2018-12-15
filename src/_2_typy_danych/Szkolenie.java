@@ -11,6 +11,9 @@ public class Szkolenie {
 
 
      // 1. tworzenie nowego obiektu
+
+    // budowa konstruktora = public/private nazwa (lista paramaterow)
+    // nazwa - [taka sama jak klasa]
     // konstruktor bezparametryczny
     public Szkolenie() {
         System.out.println("Wykonał sie konstruktor bezparametryczny");
@@ -29,7 +32,15 @@ public class Szkolenie {
 
 
     // 2. wypisanie informacji o obiekcie
+        // tworzenie metody
+        // public/private [typ zwracany] [nazwa] [lista parametrów]
 
+ public void wyswietl(){
+     System.out.println("Nazwa: "+ this.nazwa);
+     System.out.print(" cena : ");
+     System.out.printf("%.2f\n",this.cena);
+     System.out.println(" Uczestnikow : "+this.liczbaUczestnikow);
+     System.out.println(" dzien szkolenia  : "+this.data);
 
-
+ }
 }
