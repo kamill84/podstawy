@@ -8,7 +8,7 @@ public class Szkolenie {
             int liczbaUczestnikow;
             String nazwa;
             LocalDate data;
-
+            Adres adres;
 
      // 1. tworzenie nowego obiektu
 
@@ -21,12 +21,13 @@ public class Szkolenie {
 
 
     // konstruktor parametryczny
-    public Szkolenie(String nazwa, int liczbaUczestnikow, double cena, LocalDate data){
+    public Szkolenie(String nazwa, int liczbaUczestnikow, double cena, LocalDate data, Adres adres){
         System.out.println("wykonal sie konstruktor parametryczny");
         this.nazwa = nazwa ;
         this.liczbaUczestnikow = liczbaUczestnikow;
         this.cena = cena;
         this.data = data;
+        adres.wyswietl();
     }
 
 
