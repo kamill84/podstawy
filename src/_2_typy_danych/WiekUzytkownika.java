@@ -51,18 +51,18 @@ public class WiekUzytkownika {
 
         if (plec.equals("M")){
 
-            if ((roznicalat >= 18) && (roznicalat < 65)){
+            if ((roznicalat >= 18) && (roznicalat < 67)){
                 System.out.println("wiek produkcyjny");
             }
 
-            if (roznicalat > 65){
+            if (roznicalat > 67){
                 System.out.println("Emeryt");
             }}
 
 
         if (plec.equals("K")){
 
-            if ((roznicalat >= 18) && (roznicalat < 67)){
+            if ((roznicalat >= 18) && (roznicalat < 65)){
                 System.out.println("wiek produkcyjny");
             }
 
