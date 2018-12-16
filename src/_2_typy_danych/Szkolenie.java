@@ -59,6 +59,7 @@ public class Szkolenie {
         BigDecimal zysk = cena.multiply(listaucz) ;
         BigDecimal stawka = BigDecimal.valueOf(1+StaleAplikacji.STAWKA_VAT);
         BigDecimal koncowa = zysk.divide(stawka, 2, RoundingMode.HALF_UP);
+        BigDecimal ka = new BigDecimal("3.4");
         return koncowa;
 
 
