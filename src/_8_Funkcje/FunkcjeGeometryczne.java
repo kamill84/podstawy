@@ -17,6 +17,6 @@ public class FunkcjeGeometryczne {
         return Math.PI * r * r;
     }
 
-
+// this w klasie mozna uzyc gdy nie ma static
 
 }

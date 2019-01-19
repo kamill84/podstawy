@@ -33,6 +33,6 @@ public class ProgramUzywajacyFunkcji {
 
         double polekola2 = FunkcjeGeometryczne.PoleKola(losowa);
         System.out.println("Pole kola wynosi: "+polekola2);
-                // do printout mozna dodac wywoanie funkcji z innej klasy
+                // do printout mozna dodac wywolanie funkcji z innej klasy
     }
 }
