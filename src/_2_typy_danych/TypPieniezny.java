@@ -21,5 +21,9 @@ public class TypPieniezny {
         System.out.println(iloczyn);
        System.out.println(iloraz);
 
+       int waga=2;
+
+       BigDecimal strona =suma.multiply(BigDecimal.valueOf(waga));  // konwersja int do BigDecimal
+
     }
 }
