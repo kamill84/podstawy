@@ -8,7 +8,7 @@ public class Silnia {
      static long Siln(int n){
         long wynik =1 ;
 
-        for (int i=1; i < n+1 ; i++)
+        for (int i=1; i <= n ; i++)
             wynik=wynik*i;
 
         return wynik;
